@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 112762839498519352}
   - component: {fileID: 2616164375329008097}
   - component: {fileID: 7816033265641208796}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bit View
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,9 @@ GameObject:
   - component: {fileID: 3773200772898237668}
   - component: {fileID: 7678807918885190738}
   - component: {fileID: 117978797811874132}
-  m_Layer: 0
+  - component: {fileID: 241517395}
+  - component: {fileID: 4927485301566342332}
+  m_Layer: 9
   m_Name: Bit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -154,3 +156,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a52cfac367dadd8409ecc683af099f47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &241517395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3773200772898237671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a94e6f5bc31a0443aa58fd761f6a0fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxReflectionXDirection: 0.6
+--- !u!114 &4927485301566342332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3773200772898237671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49272f407c6fac4dab558920ee57f4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
